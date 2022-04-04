@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  }
+#root  {
+  display: flex;
+  flex-direction: column;
+}
+
+html , body , #root {
+  height: 100vh;
+}
+
+.Toastify__toast{
+  font-size: 4rem;
+  text-align: center;
+}
+//----------------fonts----------------------------
+@font-face {
+  font-family: dolceVita;
+  src: url(./fonts/DolceVita.ttf);
+}
+@font-face {
+  font-family: Waialua;
+  src: url(./fonts/WaialuaBold.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+//----------------variables------------------------
+$casiNegro: #252525;
+$marron: #a37657;
+$cremita: #ffe7c3;
+$verdeOscuro: #6c6b4c;
+$doradito: #a3a261;
+$gris: #756b6b;
+
+//-----------------components----------------------
+@import "./components/card";
+@import "./components/productCard";
+@import "./components/productDetail";
+@import "./components/itemCount";
+@import "./components/button";
+@import "./components/cartItem";
+@import "./components/nav";
+@import "./components/buyer";
+
+// ------------------layouts-------------------------
+@import "./layouts/footer";
+@import "./layouts/main";
+@import "./layouts/header";
+
+
+

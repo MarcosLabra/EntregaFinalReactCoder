@@ -1,0 +1,28 @@
+.button{
+    width: 60%;
+    margin: 1rem auto;
+    padding: .5rem;
+    font-size: 1.5rem;
+    border: none;
+    color: $cremita;
+    background-color: $marron;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+        background-color: goldenrod;
+        color: $cremita;
+    }
+    &:active{
+        background-color: gold;
+        color: $cremita;
+    }
+}
+
+@media (min-width: 768px) {
+    .button{
+        font-size: 2rem;
+    }
+}

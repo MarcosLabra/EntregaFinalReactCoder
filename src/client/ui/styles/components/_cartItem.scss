@@ -1,0 +1,50 @@
+.cartItem {
+  list-style: none;
+  display: flex;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: $cremita;
+  img {
+    height: 20vh;
+  }
+  div {
+    margin: 0 .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3 {
+      width: 80%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: $casiNegro;
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+    p {
+      font-family: sans-serif;
+      font-size: 1.5rem;
+      text-align: center;
+      padding-top: 1rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .cartItem {
+    margin: 1rem;
+    img {
+      height: 20vh;
+    }
+    div {
+      h3 {
+        font-size: 2rem;
+        overflow: visible;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+}
